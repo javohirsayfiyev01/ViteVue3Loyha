@@ -21,7 +21,7 @@ Salom TypeScript, Vite va Vue
     <TaskDetails :task="task"/>
   </div>
 
-  <p>{{ taskStore.doubleCount }}</p>
+  <p>{{ taskStore.count }}</p>
   <button @click="taskStore.incrementCount">bos</button>
 
 </div>

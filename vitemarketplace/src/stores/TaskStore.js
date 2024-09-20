@@ -10,17 +10,15 @@ export const useTaskStore = defineStore('taskStore', {
    }),
    /// `getters`
 
-
     doubleCount(state){
       debugger
       return state.count * 2
-
-
    },
    actions:{
     incrementCount(){
       // debugger
       console.log(this.count);
+      // ++this.count
       this.count++
      console.log(this.count);
 
